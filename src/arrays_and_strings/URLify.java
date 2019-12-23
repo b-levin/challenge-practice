@@ -1,6 +1,9 @@
+package arrays_and_strings;
+
 public class URLify {
 
     public static char[] UFLify(char[] word) {
+        //returns word with all spaces replaced with "%20"
         char[] out = new char[word.length];
         int count = 0;
         for (int i = 0; i < out.length && count < out.length; i++) {

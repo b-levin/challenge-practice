@@ -1,8 +1,11 @@
+package arrays_and_strings;
+
 import java.util.*;
 
 public class isUnique {
 
     public static boolean isUnique(String word) {
+        //Returns true if the function has no repeated chars, false if repeats
         HashMap<Character, Integer> wordList = new HashMap<>();
         for (int i = 0; i < word.length(); i++) {
             char atI = word.charAt(i);
