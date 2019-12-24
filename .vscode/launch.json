@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - kToLast",
+            "request": "launch",
+            "mainClass": "linked_lists.kToLast",
+            "projectName": "challenge-practice_dd549aff"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - rotMatrix",
+            "request": "launch",
+            "mainClass": "arrays_and_strings.rotMatrix",
+            "projectName": "challenge-practice_dd549aff"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - URLify",
+            "request": "launch",
+            "mainClass": "arrays_and_strings.URLify",
+            "projectName": "challenge-practice_dd549aff"
+        }
+    ]
+}
