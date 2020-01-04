@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num_islands",
+            "request": "launch",
+            "mainClass": "amazon.num_islands",
+            "projectName": "challenge-practice_dd549aff"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - kToLast",
             "request": "launch",
             "mainClass": "linked_lists.kToLast",

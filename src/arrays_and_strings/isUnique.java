@@ -4,7 +4,7 @@ import java.util.*;
 
 public class isUnique {
 
-    public static boolean isUnique(String word) {
+    public static boolean unique(String word) {
         //Returns true if the function has no repeated chars, false if repeats
         HashMap<Character, Integer> wordList = new HashMap<>();
         for (int i = 0; i < word.length(); i++) {
@@ -19,7 +19,7 @@ public class isUnique {
     }
 
     public static void main(String[] args) {
-        System.out.println(isUnique("hello"));
-        System.out.println(isUnique("World"));
+        System.out.println(unique("hello"));
+        System.out.println(unique("World"));
     }
 }
