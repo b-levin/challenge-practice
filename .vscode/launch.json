@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - zeroMat",
+            "request": "launch",
+            "mainClass": "arrays_and_strings.zeroMat",
+            "projectName": "challenge-practice_c8de6abe"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - banned_words",
             "request": "launch",
             "mainClass": "amazon.banned_words",
